@@ -1,10 +1,14 @@
 body {
   background-color: rgb(15, 15, 15);
   color: aquamarine;
-  background-image: url("images/script.jpg" alt = "photo of java looking messy, but super cool.");
+  
+}
+#submit{
+  color: black;
+  background-color: aquamarine;
 }
 
- img {
+.script {
    width: 20% stretch
    
  }
@@ -38,6 +42,12 @@ h2 {
 .ruby-background {
   background-color: rebeccapurple;
 }
+
+img {
+  float: left;
+}
+
+
 
 
 
