@@ -28,7 +28,15 @@ h2 {
 }
 
 .java-background {
-  background-color: white;
+  background-color: green;
+}
+
+.cSharp-background {
+  background-color: brown;
+}
+
+.ruby-background {
+  background-color: rebeccapurple;
 }
 
 
