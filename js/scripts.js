@@ -14,10 +14,10 @@ $(document).ready(function() {
       result = "C# is a general-purpose, multi-paradigm programming language. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines."
       image = "<img src='images/csharp.jpg'>"
     } else if(total <= 8) {
-      result = "Java"
+      result = "JavaScript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries."
       image = "<img src='images/java.jpg'>"
     } else if(total <= 12) {
-      result = "Ruby"
+      result = "Ruby is an interpreted, high-level, general-purpose programming language which supports multiple programming paradigms. It was designed with an emphasis on programming productivity and simplicity. In Ruby, everything is an object, including primitive data types."
       image = "<img src='images/ruby.jpg'>"
     }
     $("#output").text("");
