@@ -23,5 +23,9 @@ $(document).ready(function() {
     $("#output").text("");
     $("#output").append("<p>" + result + "</p>");
     $("#output").append(image);
+    $("button#btn").click(function() {
+      $("button#btn").removeClass();
+      $("body").addClass("java-background");
+    });
   });
 });
