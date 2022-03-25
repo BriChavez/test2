@@ -1,3 +1,9 @@
-.quiz-form {
-  text-align: center;
+body {
+  background-color: rgb(231, 201, 201);
+  color: aquamarine;
+  
+}
+
+h1 {
+  color: rgb(55, 185, 55);
 }
