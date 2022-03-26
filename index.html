@@ -8,15 +8,21 @@
   <title>Programing Languages</title>
  
 </head>
-<body>
-  <div class="script">
-  <img src="images/script.jpg" alt="photo of java looking messy, but super cool."/>
-  <h1>Programming language quiz</h1>
-  <h2>So, you're interested in programming, but you dont know what language to pick. There are so many to choose from and its not easy to know which one will be best for you. Take this short survey to help point you in the right direction.</h2>
+<body class="regular">
+  <div class="container">
+    <div class="script">
+      <img class="script"src="images/script.jpg" alt="photo of java looking messy, but super cool."/>
+      <h1>Programming language quiz</h1>
+      <h2>So, you're interested in programming, but you dont know what language to pick. There are so many to choose from and its not easy to know which one will be best for you. Take this short survey to help point you in the right direction.</h2>
+    </div>
 
-  
+    <div id="cSharp">
+      <img src='images/csharp.jpg'>"
+      <p class="results">C# is a general-purpose, multi-paradigm programming language. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.</p>
+    </div>
 
-  <div class="container">  
+
+
     <form id="quiz-form">
       <div>
         <label for="question1">Do you like to Dance?</label>
@@ -26,49 +32,46 @@
           <option value="3">Only when I drink.</option>
         </select>
       </div>
-    <div>
-      <label for="question2">What was your favorite subject in school?</label>
-      <select id="question2">
-        <option value="1">Art</option>
-        <option value="2">Math</option>
-        <option value="3">Science</option>
-      </select>
-    </div>
-    <div>
-      <label for="question3">What do you do for a living?</label>
-      <select id="question3">
-        <option value="1">Service Industry</option>
-        <option value="2">Engineer</option>
-        <option value="3">Birthday Clown</option>
-      </select>
-    </div>
-    <div>
-      <label for="question4">What is your favorite animal?</label>
-      <select id="question4">
-        <option value="1">Kitty</option>
-        <option value="2">Dog</option>
-        <option value="3">Dragon</option>
-      </select>
-    </div>
-    <div>
-      <label for="question5">how many siblings do you have?</label>
-      <select id="question5">
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three+</option>
-      </select>
-    </div>
-    <button class="btn btn-submit" id="submit">Submit</button>
-  </form>
-</div>
-  <div id="output"></div>
+      <div>
+        <label for="question2">What was your favorite subject in school?</label>
+        <select id="question2">
+          <option value="1">Art</option>
+          <option value="2">Math</option>
+          <option value="3">Science</option>
+        </select>
+      </div>
+      <div>
+        <label for="question3">What do you do for a living?</label>
+        <select id="question3">
+          <option value="1">Service Industry</option>
+          <option value="2">Engineer</option>
+          <option value="3">Birthday Clown</option>
+        </select>
+      </div>
+      <div>
+        <label for="question4">What is your favorite animal?</label>
+        <select id="question4">
+          <option value="1">Kitty</option>
+          <option value="2">Dog</option>
+          <option value="3">Dragon</option>
+        </select>
+      </div>
+      <div>
+        <label for="question5">how many siblings do you have?</label>
+        <select id="question5">
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three+</option>
+        </select>
+      </div>
+      <button class="btn btn-submit" id="submit">Submit</button>
+    </form>
+
+    <div id="output"></div>
 
 
-  <div id="cSharp">
-    <img src='images/csharp.jpg'>"
-    <p>"C# is a general-purpose, multi-paradigm programming language. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines."</p>
+    
   </div>
-
 
 
 </body>

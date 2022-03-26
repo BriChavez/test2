@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $("#cSharp").hide();
   $("#quiz-form").submit(function(e){
     e.preventDefault();
     const answer1 = parseInt($("#question1").val());
@@ -9,11 +10,11 @@ $(document).ready(function() {
     let result = answer1 + answer2 + answer3 + answer4 + answer5;
     
     
-    if(result >= 5) {
+    if(result <=9) {
       $(".script").hide();
       $("#cSharp").show();
       
-    } else if(total >= 10) {
+    } else if(total <= 10) {
       result = "JavaScript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries."
       image = "<img src='images/java.jpg'>"
       $("h2").hide();
