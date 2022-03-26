@@ -3,14 +3,14 @@ body {
   color: aquamarine;
   
 }
+
 #submit{
   color: black;
   background-color: aquamarine;
 }
 
 .script {
-   width: 20% stretch
-   
+   width: stretch;
  }
 
 h1 {
@@ -35,7 +35,8 @@ h2 {
   background-color: green;
 }
 
-.cSharp-background {
+.cSharp {
+  display: none;
   background-color: brown;
 }
 
