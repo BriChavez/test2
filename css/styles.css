@@ -32,15 +32,6 @@ h2 {
   text-align: right;
 }
 
-.java-background {
-  background-color: green;
-}
-
-
-
-.ruby-background {
-  background-color: rebeccapurple;
-}
 
 img {
     float: left;
@@ -48,14 +39,22 @@ img {
     
   }
 
-
-
 #csharp {
-  background-color: red;
   margin: 10px;
   border: 20px;
   float: left;
+}
 
+#java {
+  margin: 10px;
+  border: 20px;
+  float: left;
+}
+
+#ruby {
+  margin: 10px;
+  border: 20px;
+  float: left;
 }
 
 .results {
