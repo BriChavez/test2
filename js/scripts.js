@@ -18,7 +18,7 @@ $(document).ready(function() {
     } else if(total <= 10) {
       $(".script").removeClass();
       $("#java").show();
-    } else if(total >= 15) {
+    } if(total <= 15) {
       $(".script").removeClass();
       $("#ruby").show();
     }
