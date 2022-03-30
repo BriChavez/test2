@@ -10,8 +10,6 @@ $(document).ready(function() {
     const answer4 = parseInt($("#question4").val());
     const answer5 = parseInt($("#question5").val());
     let result = answer1 + answer2 + answer3 + answer4 + answer5;
-    
-    
     if(result <=9) {
       $(".script").removeClass();
       $("#cSharp").show();
