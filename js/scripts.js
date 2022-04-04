@@ -10,14 +10,21 @@ $(document).ready(function() {
     const answer4 = parseInt($("#question4").val());
     const answer5 = parseInt($("#question5").val());
     let result = answer1 + answer2 + answer3 + answer4 + answer5;
-    if(result <=9) {
-      $(".script").removeClass();
+    
+      if(result <=5) {
+      $(".script").hide();
+      $("#java").hide();
+      $("#ruby").hide();
       $("#cSharp").show();
-    } else if(total <= 10) {
-      $(".script").removeClass();
+    } else if(result <= 10) {
+      $(".script").hide();
+      $("#ruby").hide();
+      $("#csharp").hide();
       $("#java").show();
-    } if(total <= 15) {
-      $(".script").removeClass();
+    } else {
+      $(".script").hide();
+      $("#java").hide();
+      $("#cSharp").hide();
       $("#ruby").show();
     }
     $("button#submit").click(function() {
